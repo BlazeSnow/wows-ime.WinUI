@@ -175,7 +175,7 @@
     <value>檢查完畢後開始寫入配置</value>
   </data>
   <data name="ProjectWebsiteCard.Description" xml:space="preserve">
-    <value>https://www.blazesnow.com/wows/</value>
+    <value>https://wows.blazesnow.com/</value>
   </data>
   <data name="ProjectWebsiteCardHeader.Text" xml:space="preserve">
     <value>專案官網</value>
@@ -184,7 +184,7 @@
     <value>開啟官網</value>
   </data>
   <data name="ProjectRepositoryCard.Description" xml:space="preserve">
-    <value>https://github.com/BlazeSnow/wows-ime</value>
+    <value>https://github.com/BlazeSnow/wows-ime.WinUI</value>
   </data>
   <data name="ProjectRepositoryCardHeader.Text" xml:space="preserve">
     <value>專案倉庫</value>
