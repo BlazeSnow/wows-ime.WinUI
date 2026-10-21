@@ -138,11 +138,13 @@ dotnet test --project wows-ime.Tests/wows-ime.Tests.csproj
 2. 启用裁剪：`PublishTrimmed=true`、`TrimMode=full`、`SuppressTrimAnalysisWarnings=false`；`ILLink.Descriptors.xml` 通过 `TrimmerRootDescriptor` 保留 `WinRT.Runtime` 全部成员（修复剪裁导致的启动异常，勿删）
 3. 不做本地签名（`AppxPackageSigningEnabled=False`），签名交给 Microsoft Store
 4. 版本号位于 `Package.appxmanifest` 的 `Identity/@Version`
-5. 发布流程：
-   1. 更新 `Package.appxmanifest` 版本号与 `CHANGELOG.md`
+5. 应用名称：`Properties/DisplayName` 指向 `ms-resource:AppDisplayName`，文案在 `Strings/*/Resources.resw`（`AppDisplayName` 与 `App/Title` 保持一致）；商店列表的「产品名称」是 Partner Center 保留名称的下拉框，改名须先在 Partner Center 保留新名称，再上传使用新名称的包并在提交时选中它（保留名称见 `Package.StoreAssociation.xml` 的 `ReservedNames`）
+6. 商店政策 10.1.1：标题不得以所参照软件/服务的名称开头；政策 10.2.4：依赖游戏运行的工具须在描述开头披露依赖关系
+7. 发布流程：
+   1. 更新 `Package.appxmanifest` 版本号与官网更新日志（<https://wows.blazesnow.com/CHANGELOG>；仓库内 `CHANGELOG.md` 仅作指引）
    2. 运行根目录 `tag.ps1`：读取 manifest 版本生成 `v<版本>` tag，确认后推送
    3. 推送 tag 触发 `.github/workflows/version.yml` 自动创建 GitHub Release；MSIX 包由本地构建后提交至 Microsoft Store（产品 ID `9P0R5GM2PTKW`，商店关联配置见 `Package.StoreAssociation.xml`）
-6. Dependabot 每周更新 github-actions 与 nuget 依赖
+8. Dependabot 每周更新 github-actions 与 nuget 依赖
 
 ## 本地化
 
