@@ -11,7 +11,7 @@
   <Identity
     Name="BlazeSnow.WOWS-IME"
     Publisher="CN=C171AF55-419C-4E73-B34E-CB98C8F1EB78"
-    Version="2026.8.29.0" />
+    Version="2026.8.30.0" />
 
   <mp:PhoneIdentity PhoneProductId="6a3951db-8ec6-4a9b-ad9a-5f8f8a73c957"
     PhonePublisherId="00000000-0000-0000-0000-000000000000" />
