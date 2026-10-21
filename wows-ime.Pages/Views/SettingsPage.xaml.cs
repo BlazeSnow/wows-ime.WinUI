@@ -4,8 +4,8 @@ namespace wows_ime.Pages.Views;
 
 public sealed partial class SettingsPage : Page
 {
-    private static readonly Uri ProjectWebsiteUri = new("https://www.blazesnow.com/wows/");
-    private static readonly Uri ProjectRepositoryUri = new("https://github.com/BlazeSnow/wows-ime");
+    private static readonly Uri ProjectWebsiteUri = new("https://wows.blazesnow.com/");
+    private static readonly Uri ProjectRepositoryUri = new("https://github.com/BlazeSnow/wows-ime.WinUI");
     private IPageHost host = null!;
     private bool suppressSelectionChange;
 
@@ -31,10 +31,10 @@ public sealed partial class SettingsPage : Page
         LanguageCard.Header = new TextBlock { Text = SR("Settings/LanguageLabel") };
         AutomaticLanguageItem.Content = SR("Settings/Automatic");
         ProjectWebsiteCard.Header = new TextBlock { Text = SR("ProjectWebsiteCardHeader/Text") };
-        ProjectWebsiteCard.Description = "https://www.blazesnow.com/wows/";
+        ProjectWebsiteCard.Description = "https://wows.blazesnow.com/";
         OpenProjectWebsiteButton.Content = SR("OpenProjectWebsiteButton/Content");
         ProjectRepositoryCard.Header = new TextBlock { Text = SR("ProjectRepositoryCardHeader/Text") };
-        ProjectRepositoryCard.Description = "https://github.com/BlazeSnow/wows-ime";
+        ProjectRepositoryCard.Description = "https://github.com/BlazeSnow/wows-ime.WinUI";
         OpenProjectRepositoryButton.Content = SR("OpenProjectRepositoryButton/Content");
         VersionCard.Header = new TextBlock { Text = SR("AppVersionCardHeader/Text") };
     }

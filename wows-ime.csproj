@@ -28,11 +28,11 @@
         <RuntimeIdentifier Condition="'$(Platform)' == 'ARM64'">win-arm64</RuntimeIdentifier>
         <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
         <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-        <PackageReleaseNotes>更新日志见：https://github.com/BlazeSnow/wows-ime/blob/main/CHANGELOG.md</PackageReleaseNotes>
+        <PackageReleaseNotes>更新日志见：https://wows.blazesnow.com/CHANGELOG</PackageReleaseNotes>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/BlazeSnow/wows-ime</RepositoryUrl>
+        <RepositoryUrl>https://github.com/BlazeSnow/wows-ime.WinUI</RepositoryUrl>
         <Copyright>Copyright © 2026 BlazeSnow. 保留所有权利。</Copyright>
-        <PackageProjectUrl>https://github.com/BlazeSnow/wows-ime</PackageProjectUrl>
+        <PackageProjectUrl>https://wows.blazesnow.com/</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
@@ -115,7 +115,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.4.0" />
+        <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.5.1" />
         <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.2705" />
 
         <Manifest Include="$(ApplicationManifest)" />

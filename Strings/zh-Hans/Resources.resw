@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="App/Title" xml:space="preserve">
-    <value>战舰世界输入法配置工具</value>
+    <value>WOWS输入法工具</value>
   </data>
   <data name="AppDisplayName" xml:space="preserve">
-    <value>战舰世界输入法配置工具</value>
+    <value>WOWS输入法工具</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>战舰世界中文输入法配置工具</value>
+    <value>需配合《战舰世界》使用的中文输入法配置工具</value>
   </data>
   <data name="GameRootLabel.Text" xml:space="preserve">
     <value>游戏根目录</value>
@@ -175,7 +175,7 @@
     <value>检查完毕后开始写入配置</value>
   </data>
   <data name="ProjectWebsiteCard.Description" xml:space="preserve">
-    <value>https://www.blazesnow.com/wows/</value>
+    <value>https://wows.blazesnow.com/</value>
   </data>
   <data name="ProjectWebsiteCardHeader.Text" xml:space="preserve">
     <value>项目官网</value>
@@ -184,7 +184,7 @@
     <value>打开官网</value>
   </data>
   <data name="ProjectRepositoryCard.Description" xml:space="preserve">
-    <value>https://github.com/BlazeSnow/wows-ime</value>
+    <value>https://github.com/BlazeSnow/wows-ime.WinUI</value>
   </data>
   <data name="ProjectRepositoryCardHeader.Text" xml:space="preserve">
     <value>项目仓库</value>

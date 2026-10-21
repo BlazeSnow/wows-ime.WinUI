@@ -16,6 +16,6 @@
     <ItemGroup>
         <ProjectReference Include="..\wows-ime.Core\wows-ime.Core.csproj" />
         <PackageReference Include="CommunityToolkit.WinUI.Controls.SettingsControls" Version="8.2.251219" />
-        <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.4.0" />
+        <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.5.1" />
     </ItemGroup>
 </Project>
